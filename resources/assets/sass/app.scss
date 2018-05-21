@@ -5,10 +5,71 @@
 // Variables
 @import "variables";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+#experience {
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  marign: 1em;
+  background-color: lightgrey;
+}
+
+.header-profile {
+  text-align: center;
+}
+
+.main-nav {
+  display: grid;
+  z-index: 1;
+  grid-auto-rows: auto;
+  grid-column: 2;
+  grid-gap: 1em;
+  grid-template-columns: 70% 1fr 1fr;
+  //background-color: #eee;
+  padding: 1em;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-column-1 {
+  grid-column: 2;
+}
+
+.nav-column-2 {
+  grid-column: 3;
+}
+
+#profile {
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  margin: 1em;
+}
+
+.wrapper-bg-img {
+  background: url("/img/adventure-calm-clouds-414171.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.wrapper-nav {
+  //font-family: "Raleway", sans-serif;
+}
+
+.wrapper-main {
+  grid-column: 2;
+
+}
+
+@media (min-width: 700px) {
+  .wrapper-nav {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+  }
+  .wrapper-bg-img {
+    height: 100vh;
+  }
 }
