@@ -10,15 +10,38 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.company-name {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
 #experience {
   display: grid;
-  grid-template-columns: 25% 1fr 25%;
-  marign: 1em;
+  grid-template-columns: 10% 1fr 10%;
   background-color: lightgrey;
 }
 
-.header-profile {
+#footer {
+  display: grid;
+  background-color: lightgrey;
+  grid-template-columns: 10% 1fr 10%;
+}
+
+.header-title {
   text-align: center;
+  font-size: 3em;
+}
+
+.job-desc {
+  grid-column: 2;
+}
+
+.job-header {
+  grid-column: 1;
+}
+
+.job-title {
+  margin-bottom: 1em;
 }
 
 .main-nav {
@@ -44,8 +67,29 @@ body {
 
 #profile {
   display: grid;
-  grid-template-columns: 25% 1fr 25%;
-  margin: 1em;
+  grid-template-columns: 10% 1fr 10%;
+}
+
+.profile-col-1 {
+  grid-column: 1;
+}
+
+.profile-col-2 {
+  grid-column: 3;
+}
+
+#profile-pic {
+  grid-column: 2;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30vh;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
 }
 
 .wrapper-bg-img {
@@ -55,13 +99,31 @@ body {
   height: 80vh;
 }
 
-.wrapper-nav {
-  //font-family: "Raleway", sans-serif;
+.wrapper-experience {
+  margin-bottom: 1em;
+}
+
+.wrapper-footer {
+  grid-column: 2;
 }
 
 .wrapper-main {
   grid-column: 2;
 
+}
+
+.wrapper-nav {
+
+}
+
+.wrapper-profile {
+  display: grid;
+  grid-template-columns: 30% 1fr 30%;
+  margin-bottom: 1em;
+}
+
+.wrapper-projects {
+  grid-column: 2;
 }
 
 @media (min-width: 700px) {
@@ -71,5 +133,16 @@ body {
   }
   .wrapper-bg-img {
     height: 100vh;
+  }
+
+  .wrapper-experience {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+}
+
+@media (min-width: 900px) {
+  #experience, #footer, #profile, #projects {
+    grid-template-columns: 25% 1fr 25%;
   }
 }

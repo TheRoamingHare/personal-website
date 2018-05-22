@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/#about', function () {
+Route::get('/#profile', function () {
     return view('index#profile');
 });
