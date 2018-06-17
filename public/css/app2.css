@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);#bg-img {
+  background: url("/img/Cascade-mountains-in-USA.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  margin: 0;
+}
+
+#career {
+  color: #deeef5;
+  background: #3295be;
+  background: -webkit-gradient(linear, left top, left bottom, from(#227daa), to(#51accd));
+  background: linear-gradient(#227daa 0%, #51accd 100%);
+}
+
+.company-name {
+  color: white;
+}
+
+.career-wrapper {
+  padding: 1em;
+}
+
+#footer {
+  color: #deeef5;
+  background: #3295be;
+  background: -webkit-gradient(linear, left top, left bottom, from(#227daa), to(#51accd));
+  background: linear-gradient(#227daa 0%, #51accd 100%);
+}
+
+.footer-wrapper {
+  padding: 1em;
+}
+
+.header-title {
+  color: white;
+  text-align: center;
+  font-size: 2.3em;
+  margin: 0;
+}
+
+.header-title-color {
+  color: #3295be;
+  text-align: center;
+  font-size: 2.3em;
+  margin: 0;
+}
+
+.job-title {
+  color: white;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  height: 30vh;
+}
+
+.profile-wrapper {
+  padding: 1em;
+  color: #58798c;
+}
+
+.project-wrapper {
+  padding: 1em;
+  color: #58798c;
+}
+
+.ruler {
+  color: #deeef5;
+}
+
+.ruler-color {
+  color: #3295be;
+}
+
+.site {
+  max-width: 50em;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+}
+

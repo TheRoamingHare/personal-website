@@ -7,7 +7,7 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
-    <section id="top">
+    <header id="top">
         <div class="wrapper-bg-img">
             <div class="wrapper-nav">
                 <nav class="main-nav">
@@ -20,7 +20,7 @@
                 </nav>
             </div>
         </div>
-    </section>
+    </header>
 
     <section id="profile">
         <div class="wrapper-main">
@@ -61,11 +61,11 @@
         </div>
     </section>
 
-    <sections id="footer">
+    <footer id="footer">
         <div class="wrapper-footer">
             <h1 class="header-title">Contact</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, eum.</p>
         </div>
-    </sections>
+    </footer>
     </body>
 </html>

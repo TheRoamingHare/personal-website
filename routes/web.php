@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/#profile', function () {
-    return view('index#profile');
+Route::get('/test', function () {
+    return view('index2');
 });
