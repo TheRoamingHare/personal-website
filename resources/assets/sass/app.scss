@@ -146,3 +146,7 @@ body {
     grid-template-columns: 25% 1fr 25%;
   }
 }
+
+// check if grid is supported by browser, if so, do grid things
+@supports (grid-area: auto) {
+}
