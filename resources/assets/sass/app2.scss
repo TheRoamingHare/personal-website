@@ -5,7 +5,7 @@
   background: url("/img/Cascade-mountains-in-USA.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 60vh;
   margin: 0;
 }
 
@@ -20,7 +20,7 @@
 }
 
 
-.career-wrapper {
+#career-wrapper {
   padding: 1em;
 }
 
@@ -30,7 +30,7 @@
   background: linear-gradient(rgba(34,125,170,1) 0%, rgba(81,172,205,1) 100%);
 }
 
-.footer-wrapper {
+#footer-wrapper {
   padding: 1em;
 }
 
@@ -59,12 +59,12 @@
   height: 30vh;
 }
 
-.profile-wrapper {
+#profile-wrapper {
   padding: 1em;
   color: #58798c;
 }
 
-.project-wrapper {
+#project-wrapper {
   padding: 1em;
   color: #58798c;
 }
@@ -81,4 +81,20 @@
   max-width: 50em;
   margin: auto;
   font-family: "Raleway", sans-serif;
+}
+
+
+@supports (grid-area: auto) {
+  .site {
+    max-width: none;
+  }
+
+  .site > *:not(#top) {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+  }
+
+  .site > *:not(#top) > * {
+    grid-column: 2/3;
+  }
 }
