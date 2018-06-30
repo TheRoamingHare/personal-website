@@ -13,12 +13,20 @@
   background: linear-gradient(#227daa 0%, #51accd 100%);
 }
 
+#career-wrapper {
+  padding: 1em;
+}
+
 .company-name {
   color: white;
 }
 
-#career-wrapper {
-  padding: 1em;
+#contact-wrapper {
+  line-height: 1.8em;
+}
+
+#email {
+  display: block;
 }
 
 #footer {
@@ -46,8 +54,30 @@
   margin: 0;
 }
 
+.icon {
+  background-image: url("/img/sm_icon_sprite.png");
+  display: inline-block;
+  margin-right: 15px;
+  float: left;
+  height: 32px;
+  width: 32px;
+}
+
+.icon-email {
+  background-position: 0px -96px;
+}
+
+.icon-linkedin {
+  background-position: 0px -32px;
+}
+
 .job-title {
   color: white;
+}
+
+#linkedin {
+  display: block;
+  margin-top: 15px;
 }
 
 #profile-pic {
@@ -75,24 +105,65 @@
   color: #3295be;
 }
 
-.site {
+#site {
   max-width: 50em;
   margin: auto;
   font-family: "Raleway", sans-serif;
 }
 
 @supports (grid-area: auto) {
-  .site {
-    max-width: none;
-  }
+@media (min-width: 750px) {
+    #site {
+      max-width: none;
+    }
 
-  .site > *:not(#top) {
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-  }
+    #main > *,
+    #footer {
+      display: grid;
+      grid-template-columns: 5% 90% 5%;
+    }
 
-  .site > *:not(#top) > * {
-    grid-column: 2/3;
-  }
+    #main > * > *,
+    #footer-wrapper {
+      grid-column: 2/3;
+    }
+}
+
+@media (min-width: 900px) {
+    #main > *,
+    #footer {
+      grid-template-columns: 10% 80% 10%;
+    }
+
+    #contact-wrapper {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      margin-top: 15px;
+    }
+
+    #email {
+      grid-column: 1/2;
+    }
+
+    #linkedin {
+      grid-column: 2/3;
+      margin-top: 0;
+      margin-left: 15px;
+    }
+}
+
+@media (min-width: 1080px) {
+    #main > *,
+    #footer {
+      grid-template-columns: 15% 70% 15%;
+    }
+}
+
+@media (min-width: 1350px) {
+    #main > *,
+    #footer {
+      grid-template-columns: 20% 60% 20%;
+    }
+}
 }
 
