@@ -1,7 +1,23 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);#bg-img {
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);a:link {
+  color: #deeef5;
+}
+
+a:visited {
+  color: #deeef5;
+}
+
+a:hover {
+  color: white;
+}
+
+a.active {
+  color: white;
+}
+
+#bg-img {
   background: url("/img/Cascade-mountains-in-USA.jpg") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   height: 60vh;
   margin: 0;
 }
@@ -40,6 +56,13 @@
   padding: 1em;
 }
 
+#header-main {
+  margin: 0;
+  text-align: center;
+  padding-top: 22vh;
+  color: white;
+}
+
 .header-title {
   color: white;
   text-align: center;
@@ -57,7 +80,7 @@
 .icon {
   background-image: url("/img/sm_icon_sprite.png");
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 1em;
   float: left;
   height: 32px;
   width: 32px;
@@ -77,14 +100,15 @@
 
 #linkedin {
   display: block;
-  margin-top: 15px;
+  margin-top: 1em;
 }
 
 #profile-pic {
   border-radius: 50%;
   display: block;
   margin: auto;
-  height: 30vh;
+  width: 30%;
+  height: auto;
 }
 
 #profile-wrapper {
@@ -103,6 +127,13 @@
 
 .ruler-color {
   color: #3295be;
+}
+
+#ruler-header {
+  width: 13%;
+  margin-top: .2em;
+  margin-bottom: .1em;
+  color: white;
 }
 
 #site {
@@ -127,6 +158,24 @@
     #footer-wrapper {
       grid-column: 2/3;
     }
+
+    #profile-content {
+      display: grid;
+      grid-gap: .6em;
+      grid-template-columns: 30% 70%;
+      margin-top: .8em;
+    }
+
+    #profile-pic {
+      grid-column: 1/2;
+      width: 90%;
+      height: auto;
+    }
+
+    #profile-text {
+      grid-column: 2/3;
+      margin: auto;
+    }
 }
 
 @media (min-width: 900px) {
@@ -138,7 +187,8 @@
     #contact-wrapper {
       display: grid;
       grid-template-columns: 50% 50%;
-      margin-top: 15px;
+      grid-gap: 1em;
+      margin-top: 1em;
     }
 
     #email {
@@ -148,7 +198,6 @@
     #linkedin {
       grid-column: 2/3;
       margin-top: 0;
-      margin-left: 15px;
     }
 }
 
@@ -156,6 +205,14 @@
     #main > *,
     #footer {
       grid-template-columns: 15% 70% 15%;
+    }
+
+    #bg-img {
+      height: 80vh;
+    }
+
+    #header-main {
+      padding-top: 32vh;
     }
 }
 

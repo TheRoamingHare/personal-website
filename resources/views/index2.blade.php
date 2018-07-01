@@ -8,24 +8,49 @@
     </head>
     <body id="site">
         <header id="top">
-            <h1 id="bg-img"></h1>
+            <div id="bg-img">
+                <div id="header-main">
+                    <h1>Cameron Adams</h1>
+                    <hr id="ruler-header">
+                    <h2>Software Engineer</h2>
+
+                </div>
+            </div>
         </header>
 
         <main id="main">
             <section id="profile">
                 <div id="profile-wrapper">
-                    <h2 class="header-title-color">Profile</h2>
+                    <h2 class="header-title-color">About Me</h2>
                     <hr class="ruler-color">
-                    <p class="profile-col-1">Lorem ipsum dolor sit amet.</p>
-                    <img id="profile-pic" src="{{ asset('img/profile-pic-1.jpg') }}">
-                    <p class="profile-col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, sed.</p>
+                    <div id="profile-content">
+                        <img id="profile-pic" src="{{ asset('img/profile-pic-1.jpg') }}">
+                        <div id="profile-text">
+                            <h3>Hi,</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, pariatur perspiciatis porro provident quae quibusdam temporibus tenetur ullam. Ad consequatur cumque ducimus facilis libero minima, neque nulla placeat possimus quod sapiente voluptate voluptatibus? Atque cum hic illo magnam nisi numquam odit placeat, vel! Debitis doloribus eligendi nesciunt reiciendis saepe velit.</p>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
             <section id="career">
                 <div id="career-wrapper">
-                    <h2 class="header-title">Careers</h2>
+                    <h2 class="header-title">Experiences</h2>
                     <hr class="ruler">
+                    <div id="career-1">
+                        <h3 class="company-name">Vertafore</h3>
+                        <p>February 2018 - Present</p>
+
+                        <b class="job-title">Software Engineer</b>
+                        <ul>
+                            <li>Built a web application on the company’s e-commerce SaaS platform to enable item cross-posting on eBay, and Amazon. Using PHP, HTML, CSS, and JavaScript.</li>
+                            <li>300% increase in item posting speed by helping develop an internal REST API with Laravel to cross-post items to eBay</li>
+                            <li>Centralized all shipping and handling logistics under one application by synchronizing orders made on eBay with the e-commerce platform's order system</li>
+                            <li>Re-engineered a client’s outdated DNS system into a custom BIND DNS application deployed on AWS, resulting in reduced operating costs and increased uptime</li>
+                        </ul>
+                    </div>
+
                     <div id="career-1">
                         <h3 class="company-name">XeroCreative LLC</h3>
                         <p>February 2017 - July 2017</p>
