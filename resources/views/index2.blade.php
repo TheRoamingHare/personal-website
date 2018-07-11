@@ -36,7 +36,7 @@
 
             <section id="career">
                 <div id="career-wrapper">
-                    <h2 class="header-title">Experiences</h2>
+                    <h2 class="header-title">Careers</h2>
                     <hr class="ruler">
                     <div id="career-1">
                         <h3 class="company-name">Vertafore</h3>
@@ -66,11 +66,102 @@
                 </div>
             </section>
 
+            <section id="skills">
+                <div id="skills-wrapper">
+                    <h2 class="header-title-color">Skills</h2>
+                    <hr class="ruler-color">
+
+                    <!-- Forgive the inline styling, it's just much more practical this way. -->
+                    <div id="skills-content">
+                        <div id="skills-col-1">
+                            <div class="skill-item">
+                                <h3 class="skill-title">CSS/ SCSS</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">HTML</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">PHP</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">JavaScript</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="skills-col-2">
+                            <div class="skill-item">
+                                <h3 class="skill-title">PHP</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">JavaScript</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">PHP</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">JavaScript</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="education">
+                <div id="education-wrapper">
+                    <h2 class="header-title">Education</h2>
+                    <hr class="ruler">
+                    <h3>The Ohio State University</h3>
+                    <p>Bachelor of Science - Computer Science & Engineering</p>
+                    <p>2016</p>
+                </div>
+            </section>
+
             <section id="projects">
                 <div id="project-wrapper">
                     <h2 class="header-title-color">Projects</h2>
                     <hr class="ruler-color">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias laboriosam laudantium porro qui quis repellat sit totam? Alias autem fuga fugiat nobis officia, perspiciatis quae sapiente tempora unde voluptate. Asperiores at cumque dolorum earum ex exercitationem illo itaque, nam obcaecati quas quidem repellat sapiente. Aut eligendi expedita labore minus optio?</p>
+                    <div id="projects-container">
+                        <div id="project-1">
+                            <a href="https://google.com" target="_blank">
+                                <img class="project-pic" src="{{ asset('img/google-screenshot.png') }}">
+                            </a>
+                        </div>
+                        <div id="project-2">
+                            <a href="https://google.com" target="_blank">
+                                <img class="project-pic" src="{{ asset('img/google-screenshot.png') }}">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
@@ -80,8 +171,8 @@
                 <h2 class="header-title">Let's Talk</h2>
                 <hr class="ruler">
                 <div id="contact-wrapper">
-                    <a href="mailto:cameronadams@protonmail.com" id="email"><span class="icon icon-email"></span>cameronadams@protonmail.com</a>
-                    <a href="https://linkedin.com/in/camadams/" id="linkedin" target="_blank"><span class="icon icon-linkedin"></span>https://linkedin.com/in/camadams/</a>
+                    <a href="mailto:cameronadams@protonmail.com" id="email" tabindex="0"><span class="icon icon-email"></span>cameronadams@protonmail.com</a>
+                    <a href="https://linkedin.com/in/camadams/" id="linkedin" tabindex="0" target="_blank"><span class="icon icon-linkedin"></span>https://linkedin.com/in/camadams/</a>
                 </div>
             </div>
         </footer>
