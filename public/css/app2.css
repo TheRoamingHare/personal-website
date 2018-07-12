@@ -1,24 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);a:link {
-  color: #deeef5;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #deeef5;
-  text-decoration: none;
-}
-
-a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-a.active {
-  color: white;
-  text-decoration: underline;
-}
-
-#bg-img {
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif|Raleway|Song+Myung|Source+Serif+Pro);#bg-img {
   background: url("/img/Cascade-mountains-in-USA.jpg") no-repeat;
   background-size: cover;
   background-position: top;
@@ -67,6 +47,26 @@ a.active {
   background: linear-gradient(#117761 0%, #39b781 100%);
 }
 
+#footer a:link {
+  color: #deeef5;
+  text-decoration: none;
+}
+
+#footer a:visited {
+  color: #deeef5;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#footer a.active {
+  color: white;
+  text-decoration: underline;
+}
+
 #footer-wrapper {
   padding: 1em;
 }
@@ -76,6 +76,15 @@ a.active {
   text-align: center;
   padding-top: 22vh;
   color: white;
+}
+
+#header-name {
+  font-size: 2em;
+  margin: 0;
+}
+
+#header-sub {
+  margin: 0;
 }
 
 .header-title {
@@ -147,6 +156,26 @@ a.active {
   line-height: inherit;
 }
 
+#projects a:link {
+  color: #117761;
+  text-decoration: none;
+}
+
+#projects a:visited {
+  color: #117761;
+  text-decoration: none;
+}
+
+#projects a:hover {
+  color: #39b781;
+  text-decoration: underline;
+}
+
+#projects a.active {
+  color: #39b781;
+  text-decoration: underline;
+}
+
 .project-pic {
   width: 95%;
   height: auto;
@@ -160,6 +189,13 @@ a.active {
 
 #project-2 {
   text-align: center;
+}
+
+.project-name {
+  text-align: left;
+  display: inline-block;
+  width: 95%;
+  color: green;
 }
 
 #project-wrapper {
@@ -180,6 +216,7 @@ a.active {
   margin-top: .2em;
   margin-bottom: .1em;
   color: white;
+  opacity: .5;
 }
 
 #site {
@@ -202,8 +239,34 @@ a.active {
   color: #58798c;
 }
 
+.tags {
+  display: inline-block;
+  text-align: left;
+  margin-top: .5em;
+  width: 95%;
+}
+
+.tags > * {
+  border: .1em solid lightgray;
+  border-radius: .5em;
+  padding: .5em;
+  display: inline-block;
+}
+
 @supports (grid-area: auto) {
 @media (min-width: 750px) {
+    #bg-img {
+      height: 100vh;
+    }
+
+    #header-main {
+      padding-top: 40vh;
+    }
+
+    #header-name {
+      font-size: 3em;
+    }
+
     #site {
       max-width: none;
     }
@@ -250,6 +313,10 @@ a.active {
       grid-column: 2/3;
     }
 
+    #ruler-header {
+      margin-bottom: .6em;
+    }
+
     #skills-content {
       display: grid;
       grid-template-columns: 50% 50%;
@@ -257,6 +324,10 @@ a.active {
 }
 
 @media (min-width: 900px) {
+    #header-name {
+      font-size: 4.5em;
+    }
+
     #main > *,
     #footer {
       grid-template-columns: 10% 80% 10%;
@@ -277,6 +348,10 @@ a.active {
       grid-column: 2/3;
       margin-top: 0;
     }
+
+    #ruler-header {
+      margin-bottom: .7em;
+    }
 }
 
 @media (min-width: 1080px) {
@@ -284,17 +359,13 @@ a.active {
     #footer {
       grid-template-columns: 15% 70% 15%;
     }
-
-    #bg-img {
-      height: 80vh;
-    }
-
-    #header-main {
-      padding-top: 32vh;
-    }
 }
 
 @media (min-width: 1350px) {
+    #header-name {
+      font-size: 5em;
+    }
+
     #main > *,
     #footer {
       grid-template-columns: 20% 60% 20%;

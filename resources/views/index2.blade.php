@@ -10,9 +10,9 @@
         <header id="top">
             <div id="bg-img">
                 <div id="header-main">
-                    <h1>Cameron Adams</h1>
+                    <h1 id="header-name">Cameron Adams</h1>
                     <hr id="ruler-header">
-                    <h2>Software Engineer</h2>
+                    <h2 id="header-sub">Software Engineer</h2>
 
                 </div>
             </div>
@@ -75,59 +75,59 @@
                     <div id="skills-content">
                         <div id="skills-col-1">
                             <div class="skill-item">
-                                <h3 class="skill-title">CSS/ SCSS</h3>
+                                <h3 class="skill-title">Java</h3>
                                 <div class="progress-container">
-                                    <div class="progressbar" style="width:80%"></div>
+                                    <div class="progressbar" style="width:85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">PHP/Laravel</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:90%"></div>
                                 </div>
                             </div>
 
                             <div class="skill-item">
                                 <h3 class="skill-title">HTML</h3>
                                 <div class="progress-container">
-                                    <div class="progressbar" style="width:90%"></div>
+                                    <div class="progressbar" style="width:95%"></div>
                                 </div>
                             </div>
 
                             <div class="skill-item">
-                                <h3 class="skill-title">PHP</h3>
+                                <h3 class="skill-title">CSS/SCSS</h3>
                                 <div class="progress-container">
                                     <div class="progressbar" style="width:80%"></div>
-                                </div>
-                            </div>
-
-                            <div class="skill-item">
-                                <h3 class="skill-title">JavaScript</h3>
-                                <div class="progress-container">
-                                    <div class="progressbar" style="width:90%"></div>
                                 </div>
                             </div>
                         </div>
                         <div id="skills-col-2">
                             <div class="skill-item">
-                                <h3 class="skill-title">PHP</h3>
+                                <h3 class="skill-title">JavaScript</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:60%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">SQL</h3>
+                                <div class="progress-container">
+                                    <div class="progressbar" style="width:70%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <h3 class="skill-title">Agile</h3>
                                 <div class="progress-container">
                                     <div class="progressbar" style="width:80%"></div>
                                 </div>
                             </div>
 
                             <div class="skill-item">
-                                <h3 class="skill-title">JavaScript</h3>
+                                <h3 class="skill-title">AWS</h3>
                                 <div class="progress-container">
-                                    <div class="progressbar" style="width:90%"></div>
-                                </div>
-                            </div>
-
-                            <div class="skill-item">
-                                <h3 class="skill-title">PHP</h3>
-                                <div class="progress-container">
-                                    <div class="progressbar" style="width:80%"></div>
-                                </div>
-                            </div>
-
-                            <div class="skill-item">
-                                <h3 class="skill-title">JavaScript</h3>
-                                <div class="progress-container">
-                                    <div class="progressbar" style="width:90%"></div>
+                                    <div class="progressbar" style="width:60%"></div>
                                 </div>
                             </div>
                         </div>
@@ -155,11 +155,27 @@
                             <a href="https://google.com" target="_blank">
                                 <img class="project-pic" src="{{ asset('img/google-screenshot.png') }}">
                             </a>
+                            <a href="https://google.com" target="_blank" class="project-name"><b>google.com</b></a>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                            </div>
                         </div>
                         <div id="project-2">
                             <a href="https://google.com" target="_blank">
                                 <img class="project-pic" src="{{ asset('img/google-screenshot.png') }}">
                             </a>
+                            <div class="tag-container">
+                                <a href="https://google.com" target="_blank" class="project-name"><b>google.com</b></a>
+                                <div class="tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>PHP</span>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
