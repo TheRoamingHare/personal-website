@@ -98,7 +98,7 @@
                             <div class="skill-item">
                                 <h3 class="skill-title">CSS/SCSS</h3>
                                 <div class="progress-container">
-                                    <div class="progressbar" style="width:80%"></div>
+                                    <div class="progressbar" style="width:70%"></div>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                             <div class="skill-item">
                                 <h3 class="skill-title">AWS</h3>
                                 <div class="progress-container">
-                                    <div class="progressbar" style="width:60%"></div>
+                                    <div class="progressbar" style="width:50%"></div>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                             <a href="https://google.com" target="_blank">
                                 <img class="project-pic" src="{{ asset('img/google-screenshot.png') }}">
                             </a>
-                            <a href="https://google.com" target="_blank" class="project-name"><b>google.com</b></a>
+                            <a href="https://google.com" target="_blank" class="project-name"><b>Long Ears</b></a>
                             <div class="tags">
                                 <span>HTML</span>
                                 <span>CSS</span>
@@ -187,8 +187,9 @@
                 <h2 class="header-title">Let's Talk</h2>
                 <hr class="ruler">
                 <div id="contact-wrapper">
-                    <a href="mailto:cameronadams@protonmail.com" id="email" tabindex="0"><span class="icon icon-email"></span>cameronadams@protonmail.com</a>
-                    <a href="https://linkedin.com/in/camadams/" id="linkedin" tabindex="0" target="_blank"><span class="icon icon-linkedin"></span>https://linkedin.com/in/camadams/</a>
+                    <a href="mailto:cameronadams@protonmail.com" id="email" tabindex="0"><span id="icon-email"></span>cameronadams@protonmail.com</a>
+                    <a href="https://linkedin.com/in/camadams/" id="linkedin" tabindex="0" target="_blank"><span id="icon-linkedin"></span>https://linkedin.com/in/camadams/</a>
+                    <a href="https://github.com/cjadams13/" id="github" tabindex="0" target="_blank"><span id="icon-github"></span>https://github.com/cjadams13/</a>
                 </div>
             </div>
         </footer>
