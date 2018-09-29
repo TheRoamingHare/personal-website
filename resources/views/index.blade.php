@@ -36,7 +36,7 @@
 
             <section id="career">
                 <div id="career-wrapper">
-                    <h2 class="header-title">Careers</h2>
+                    <h2 class="header-title">Experiences</h2>
                     <hr class="ruler">
                     <div id="career-1">
                         <h3 class="company-name">Vertafore</h3>
@@ -63,6 +63,15 @@
                             <li>Re-engineered a client’s outdated DNS system into a custom BIND DNS application deployed on AWS, resulting in reduced operating costs and increased uptime</li>
                         </ul>
                     </div>
+
+                    <div>
+                        <h3 class="header-title">Education</h3>
+                        <hr class="ruler">
+                        <b class="job-title">The Ohio State University</b>
+                        <p>Bachelor of Science - Computer Science & Engineering</p>
+                        <p>2016</p>
+                    </div>
+
                 </div>
             </section>
 
@@ -84,7 +93,7 @@
                             <div class="skill-item">
                                 <h3 class="skill-title">PHP/Laravel</h3>
                                 <div class="progress-container">
-                                    <div class="progressbar" style="width:90%"></div>
+                                    <div class="progressbar" style="width:70%"></div>
                                 </div>
                             </div>
 
@@ -136,6 +145,7 @@
                 </div>
             </section>
 
+            <!--
             <section id="education">
                 <div id="education-wrapper">
                     <h2 class="header-title">Education</h2>
@@ -180,6 +190,8 @@
                     </div>
                 </div>
             </section>
+            -->
+
         </main>
 
         <footer id="footer">
