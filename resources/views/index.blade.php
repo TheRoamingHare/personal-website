@@ -24,10 +24,12 @@
                     <h2 class="header-title-color">About Me</h2>
                     <hr class="ruler-color">
                     <div id="profile-content">
-                        <img id="profile-pic" src="{{ asset('img/profile-pic-1.jpg') }}">
+                        <img id="profile-pic" src="{{ asset('img/profile-pic-2.jpg') }}">
                         <div id="profile-text">
                             <h3>Hi,</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, pariatur perspiciatis porro provident quae quibusdam temporibus tenetur ullam. Ad consequatur cumque ducimus facilis libero minima, neque nulla placeat possimus quod sapiente voluptate voluptatibus? Atque cum hic illo magnam nisi numquam odit placeat, vel! Debitis doloribus eligendi nesciunt reiciendis saepe velit.</p>
+                            <p>I'm a software engineer with a diverse background ranging from RESTful API and front-end development to database design and UX improvements. I'm a passionate learner who is eager to leverage my full stack experience to keep a company on the cutting edge.</p>
+
+                            <p>Most recently I've helped coordinate and develop on software integration in a multi-team environment. In collaboration with product management, I implemented customer-requested feature work on one of Vertafore’s largest products. Additionally, in my previous role I have consulted directly with clients where I engineered custom backend solutions.</p>
                         </div>
                     </div>
 
@@ -44,10 +46,10 @@
 
                         <b class="job-title">Software Engineer</b>
                         <ul>
-                            <li>Built a web application on the company’s e-commerce SaaS platform to enable item cross-posting on eBay, and Amazon. Using PHP, HTML, CSS, and JavaScript.</li>
-                            <li>300% increase in item posting speed by helping develop an internal REST API with Laravel to cross-post items to eBay</li>
-                            <li>Centralized all shipping and handling logistics under one application by synchronizing orders made on eBay with the e-commerce platform's order system</li>
-                            <li>Re-engineered a client’s outdated DNS system into a custom BIND DNS application deployed on AWS, resulting in reduced operating costs and increased uptime</li>
+                            <li>Implemented and tested RESTful web services to consume an internal authentication API for a cross platform integration</li>
+                            <li>Developed a full stack solution to keep cross platform data in sync with a 3rd party notification service</li>
+                            <li>Worked with product management in the ongoing process of modernizing one of Vertafore’s largest products through UX improvements, and customer requested feature work</li>
+                            <li>Lead biweekly demos and weekly status meetings as Scrum Master, while also ensuring the team followed Agile processes and ceremonies</li>
                         </ul>
                     </div>
 
@@ -57,9 +59,9 @@
 
                         <b class="job-title">Software Engineer</b>
                         <ul>
-                            <li>Built a web application on the company’s e-commerce SaaS platform to enable item cross-posting on eBay, and Amazon. Using PHP, HTML, CSS, and JavaScript.</li>
-                            <li>300% increase in item posting speed by helping develop an internal REST API with Laravel to cross-post items to eBay</li>
-                            <li>Centralized all shipping and handling logistics under one application by synchronizing orders made on eBay with the e-commerce platform's order system</li>
+                            <li>Built and tested a web application on the company’s e-commerce SaaS platform to enable item cross-posting on eBay, and Amazon</li>
+                            <li>300% increase in item posting speed by collaborating to develop an internal REST API to cross-post items to eBay</li>
+                            <li>Designed a database schema across multiple applications to synchronize orders made on eBay with the e-commerce platform’s order system</li>
                             <li>Re-engineered a client’s outdated DNS system into a custom BIND DNS application deployed on AWS, resulting in reduced operating costs and increased uptime</li>
                         </ul>
                     </div>
@@ -67,7 +69,7 @@
                     <div>
                         <h3 class="header-title">Education</h3>
                         <hr class="ruler">
-                        <b class="job-title">The Ohio State University</b>
+                        <h3 class="company-name">The Ohio State University</h3>
                         <p>Bachelor of Science - Computer Science & Engineering</p>
                         <p>2016</p>
                     </div>
